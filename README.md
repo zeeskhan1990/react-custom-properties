@@ -2,6 +2,9 @@
 
 A React component for declaratively applying CSS Variables or CSS Custom Properties as the are officially known. For CSS variable usage see [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 
+Forked from [https://github.com/danbahrami/react-custom-properties] (https://github.com/danbahrami/react-custom-properties)
+The styles inclusion and deletion are managed through a dedicated stylesheet instead of adding inline-styles, thus keeping the html more clean and structured. Also `:root` used for declaring the global scoped css variables instead of adding the rules inline to the root element as in the original repo.
+
 ## Install
 
 To get started install via npm
